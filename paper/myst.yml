@@ -1,22 +1,21 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-JOURNAL
-  # title: TITLE OF PAPER
-  # description: SHORT DESCRIPTION HERE
+  id: ubcgif-2023-mitchell-oldenburg-applied-geophysics
+  title: Using DC Resistivity Ring Array Surveys to Resolve Conductive Structures Around Tunnels or Mine-Workings
+  description: We propose the use of an ensemble of ring arrays, which are created by placing one or more electrodes in each face (sidewalls, floor, and ceiling) of the tunnel to form a ring of electrodes at each along-tunnel location.
   authors:
-    # - name: AUTHOR 1
+    - name: Mitchell A. Mitchell
     #   email: EMAIL
-    #   corresponding: true
+      corresponding: true
     #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    - name: Douglas W. Oldenburg
+    #   email: 
+    #   orcid: 
+      affiliation: ubc
   # doi: DOI
   # arxiv: ARXIV
   # github: GITHUB-URL
