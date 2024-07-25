@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: ubcgif-2023-mitchell-oldenburg-applied-geophysics
+  id: ubcgif-2023-mitchell-oldenburg-applied
   title: Using DC Resistivity Ring Array Surveys to Resolve Conductive Structures Around Tunnels or Mine-Workings
   description: We propose the use of an ensemble of ring arrays, which are created by placing one or more electrodes in each face (sidewalls, floor, and ceiling) of the tunnel to form a ring of electrodes at each along-tunnel location.
   authors:
