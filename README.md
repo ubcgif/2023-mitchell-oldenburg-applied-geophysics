@@ -1,75 +1,35 @@
-# Template repository for papers by the GIF group
+# Using DC Resistivity Ring Array Surveys to Resolve Conductive Structures Around Tunnels or Mine-Workings
 
-Please use this repository as a template for papers
+_Michael A. Mitchell and Douglas W. Oldenburg_
 
-## Repository name
-
-The naming convention should follow 
-
-```
-year-authors-journal-short-title
-```
-
-As an example for two authors: 
-```
-2023-heagy-oldenburg-gji-casing-permeability
-```
-
-if there are more than 2 authors, you can use `etal` to indicate multiple authors, e.g. 
-```
-2024-heagy-etal-tle-future-of-applied-geophysics
-```
-
-## Contents
-
-The paper should be put in a `paper` folder. You can put the original latex there. The published pdf from the journal should also be included here. 
-
-Please also include a `thumbnail.png`. This should be a high-impact figure from the paper. 
-
-## MyST.md
-
-The key file that you will need to update is the `myst.yml` file which is located in the `paper` folder. You will need to fill out the fields that are currently commented out. 
-
-The project id should follow the pattern `ubcgif-YEAR-AUTHORS-JOURNAL`, e.g. `ubcgif-2023-heagy-oldenburg-gji` or `2024-heagy-etal-tle`
-
-Descriptions of the fields is available here: https://mystmd.org/guide/frontmatter#available-frontmatter-fields
-
-## Previewing the site
-
-You can preview the build using MyST. Please have MyST installed ([instructions](https://mystmd.org/guide/installing)). From the `paper` folder, you can then run 
-
-```
-myst start
-```
-
-and a preview will launch, usually from `http://localhost:3000`
-
-Also, whenever you create a pull-request to the repo, curvenote will build you a preview 🚀. A link will be added to the comment thread that looks something like this 
-
-![image](https://github.com/ubcgif/template-repository-paper/assets/6361812/b7a144c5-8458-474b-98c4-9e5890ac859e)
-
-
-## README 
-Please use the following as a template for the 
-```
-# Template repository for papers
-
-_Authors_
-
-[https://doi.org/XXX](https://doi.org/XXX)
+https://doi.org/10.1016/j.jappgeo.2023.104949
 
 ![thumbnail](./paper/thumbnail.png)
 
-## Summary
+# Summary
 
-Summary of the paper here (pulled from abstract/summary of paper) 
+In underground environments, conventional direct current (DC) resistivity surveys with a single linear array of electrodes produce fundamentally non-unique inversions. These non-uniqueness and model resolution issues stem from limitations placed on the location of transmitters (TXs) and receivers (RXs) by the geometry of existing tunnels and boreholes. Poor excitation and/or sampling of the region of interest (ROI) can create artifacts and reduce the resolution of the recovered model.
 
-## Citation
+To address these problems we propose the use of an ensemble of ring arrays, which are created by placing one or more electrodes in each face (sidewalls, floor, and ceiling) of the tunnel to form a ring of electrodes at each along-tunnel location. Using a series of increasingly complex synthetic models, we assess the benefits of ring arrays and show that they can be used to better constrain the location and shape of anomalous bodies around the tunnel.
 
-Please include the formatted citation along with bibtex for the reference
+Although ring arrays significantly improve the resolution of the recovered model, the size of the comprehensive ring array survey increases rapidly with the number of electrodes used. To balance model resolution and survey size, we developed a physics-based survey design methodology. In this methodology, TXs are selected based upon secondary charge accumulations on a test block that is moved through the ROI. Although this survey design methodology does not produce a strictly optimal survey, it balances model resolution and survey size in a practical and computationally efficient manner.
+
+Since the ring array more accurately estimates the around-tunnel location of targets and ensures that targets on all sides of the tunnel are detected, it is ideally suited to tunnel-based environments. Our results show that only about $6\%$ of the possible TXs and $0.5\%$ of the RXs in the comprehensive ring array survey are needed to retain the improvements in resolution. Therefore, economical ring array surveys can be designed for both reconnaissance and target characterization. Following the inversion of the reconnaissance dataset, additional rings can be added to reduce the inter-ring spacing or off-tunnel boreholes can be added to the region around identified anomalies to increase resolution as required.
+
+
+# Citation
+
+Mitchell, M. A., & Oldenburg, D. W. (2023). Using DC resistivity ring array surveys to resolve conductive structures around tunnels or mine-workings. Journal of Applied Geophysics, 211, 104949. https://doi.org/10.1016/j.jappgeo.2023.104949
 
 ```
-
-## Examples
-- https://github.com/ubcgif/2023-heagy-oldenburg-gji-casing-permeability
-- https://github.com/ubcgif/2024-heagy-etal-tle-future-of-applied-geophysics
+@article{mitchell_applied_2023,
+title = {Using DC resistivity ring array surveys to resolve conductive structures around tunnels or mine-workings},
+journal = {Journal of Applied Geophysics},
+volume = {211},
+pages = {104949},
+year = {2023},
+issn = {0926-9851},
+doi = {https://doi.org/10.1016/j.jappgeo.2023.104949},
+url = {https://www.sciencedirect.com/science/article/pii/S0926985123000265}
+}
+```
