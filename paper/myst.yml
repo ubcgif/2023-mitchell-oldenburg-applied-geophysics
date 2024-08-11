@@ -45,6 +45,6 @@ project:
 site:
   template: article-theme
   actions:
-    - title: PDF
+    - title: pdf
       url: 2023_mitchell.pdf
       static: true
