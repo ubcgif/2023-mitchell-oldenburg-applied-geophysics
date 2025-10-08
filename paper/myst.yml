@@ -1,43 +1,44 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-JOURNAL
-  # title: TITLE OF PAPER
-  # description: SHORT DESCRIPTION HERE
+  id: ubcgif-2023-mitchell-oldenburg-applied
+  title: Using DC Resistivity Ring Array Surveys to Resolve Conductive Structures Around Tunnels or Mine-Workings
+  description: We propose the use of an ensemble of ring arrays, which are created by placing one or more electrodes in each face (sidewalls, floor, and ceiling) of the tunnel to form a ring of electrodes at each along-tunnel location.
   authors:
-    # - name: AUTHOR 1
-    #   email: EMAIL
-    #   corresponding: true
-    #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-  # doi: DOI
+    - name: Mitchell A. Mitchell
+      email: mmitchell@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0001-5070-8793
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    - name: Douglas W. Oldenburg
+      email: doug@eoas.ubc.ca
+      orcid: 0000-0002-4327-2124
+      affiliation: ubc
+  doi: doi.org/10.1016/j.jappgeo.2023.104949
   # arxiv: ARXIV
   # github: GITHUB-URL
-  # date: YYYY/MM/DD # date of publication
+  date: 2023/02/03 # date of publication
   # license: CC-BY-4.0  # uncomment this and the line below if open access
   # open_access: true
   venue:
-    # title: JOURNAL NAME
-    # url: JOURNAL URL
+    title: Journal of Applied Geophysics
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0926985123000265
   history:
-    # received: YYYY/MM/DD
-    # accepted: YYYY/MM/DD
-    # published: YYYY/MM/DD
+    received: 2022/05/05
+    accepted: 2023/01/25
+    published: 2023/02/03
   keywords:
-    # - KEYWORD 1
-    # - KEYWORD 2
-    # - KEYWORD 3
-    # - KEYWORD 4
+    - DC resistivity (ERT/ERI)
+    - 3D Inversion
+    - Survey design
+    - In mine
+    - Tunnel
+    - SimPEG
   abbreviations:
-    # CSEM: controlled source electromagnetics
-    # EM: electromagnetics
+    DC: Direct Current
+    ROI: Region of Interest
   thumbnail: thumbnail.png
   numbering:
     headings: true
@@ -45,5 +46,5 @@ site:
   template: article-theme
   actions:
     - title: pdf
-      # url: NAME-OF-PDF.pdf
+      url: 2023_mitchell.pdf
       static: true
